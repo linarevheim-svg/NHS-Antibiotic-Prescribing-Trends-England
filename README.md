@@ -52,3 +52,15 @@ All data is published under the [Open Government Licence v3.0](https://www.natio
 ---
 
 ## Project structure
+├── sql/
+│   └── antibiotic_prescribing_query.sql
+├── notebooks/
+│   └── prescribing_analysis.ipynb
+├── data/
+│   └── README.md  (data not stored here — see sources above)
+└── dashboard/
+└── tableau_public_link.md
+
+## Dashboard
+
+[View on Tableau Public](#) ← replace link once published
