@@ -1,5 +1,5 @@
 # NHS-Antibiotic-Prescribing-Trends-England
-Analysing regional antibiotic prescribing patterns across NHS GP practices in England (2019–2024) to identify variation that may signal antimicrobial resistance (AMR) risk.
+Analysing regional antibiotic prescribing patterns across NHS Commissioning Regions in England (2021–2026) to identify variation that may signal antimicrobial resistance (AMR) risk.
 
 ---
 
@@ -13,9 +13,9 @@ The analysis is intended to support the kind of insight that could inform NHS In
 
 ## Key questions
 
-- Which regions show the highest antibiotic prescribing rates per 1,000 patients?
-- How has prescribing volume changed year-on-year since 2019?
-- Are there GP practices or ICBs that are consistent outliers?
+- How has prescribing volume changed year-on-year since 2021?
+- Which NHS Commissioning Regions prescribe above the national average?
+- Are there regions that are consistent outliers year on year?
 
 ---
 
@@ -33,9 +33,7 @@ The analysis is intended to support the kind of insight that could inform NHS In
 
 | Dataset | Source | Licence |
 |---------|--------|---------|
-| English Prescribing Data (EPD) | [NHS BSA Open Data](https://opendata.nhsbsa.net/dataset/english-prescribing-data-epd) | OGL v3 |
-| GP Practice Populations | [NHS Digital](https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice) | OGL v3 |
-| Regional boundaries | [ONS Geoportal](https://geoportal.statistics.gov.uk) | OGL v3 |
+| Antibacterial drugs prescribing (BNF 5.1) | [OpenPrescribing.net — Bennett Institute, University of Oxford](https://openprescribing.net/analyse) | OGL v3 |
 
 All data is published under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
@@ -43,7 +41,7 @@ All data is published under the [Open Government Licence v3.0](https://www.natio
 
 ## Data governance & ethics
 
-**No personal data is used.** The EPD dataset is aggregated at GP practice level. No patient identifiers, names, or individual records are present at any stage of this analysis.
+**No personal data is used.** The EPD dataset is aggregated at NHS Commissioning Region level. No patient identifiers, names, or individual records are present at any stage of this analysis.
 
 **GDPR consideration.** If this analysis were extended to patient-level data, it would require a Data Sharing Agreement and compliance with the [NHS Data Security and Protection Toolkit](https://www.dsptoolkit.nhs.uk) under UK GDPR.
 
@@ -62,5 +60,4 @@ All data is published under the [Open Government Licence v3.0](https://www.natio
 └── tableau_public_link.md
 
 ## Dashboard
-
-[[View on Tableau Public](#)](https://public.tableau.com/authoring/NHSAntibioticPrescribingEngland20212026/NHSAntibioticPrescribingEngland20212026#1)
+[View on Tableau Public](https://public.tableau.com/views/NHSAntibioticPrescribingEngland20212026/NHSAntibioticPrescribingEngland20212026)
