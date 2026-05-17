@@ -63,4 +63,4 @@ All data is published under the [Open Government Licence v3.0](https://www.natio
 
 ## Dashboard
 
-[View on Tableau Public](#) ← replace link once published
+[[View on Tableau Public](#)](https://public.tableau.com/authoring/NHSAntibioticPrescribingEngland20212026/NHSAntibioticPrescribingEngland20212026#1)
